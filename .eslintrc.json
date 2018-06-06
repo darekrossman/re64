@@ -52,7 +52,7 @@
         "functions": "ignore"
       }
     ],
-    "react/prop-types": "off"
+    "react/prop-types": [0]
   },
   "overrides": [
     {
