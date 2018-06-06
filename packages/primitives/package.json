@@ -3,6 +3,7 @@
   "version": "1.0.1-beta.3",
   "main": "index.js",
   "license": "MIT",
+  "repository": "https://github.com/subpopular/re64/tree/master/packages/primitives",
   "peerDependencies": {
     "react": "^16.4.0",
     "react-dom": "^16.4.0"
