@@ -1,0 +1,9 @@
+<Box bg="primary" p={3} m={3}>
+  <Text
+    fontSize={3}
+    color="red"
+    align="center"
+  >
+    Hello!
+  </Text>
+</Box>

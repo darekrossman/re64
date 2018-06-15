@@ -13,95 +13,82 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
 
-function _templateObject5() {
-  var data = _taggedTemplateLiteralLoose(["\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n"]);
-
-  _templateObject5 = function _templateObject5() {
-    return data;
-  };
-
-  return data;
-}
-
-function _templateObject4() {
-  var data = _taggedTemplateLiteralLoose(["\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n"]);
-
-  _templateObject4 = function _templateObject4() {
-    return data;
-  };
-
-  return data;
-}
-
-function _templateObject3() {
-  var data = _taggedTemplateLiteralLoose(["\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n"]);
-
-  _templateObject3 = function _templateObject3() {
-    return data;
-  };
-
-  return data;
-}
-
-function _templateObject2() {
-  var data = _taggedTemplateLiteralLoose(["\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n"]);
-
-  _templateObject2 = function _templateObject2() {
-    return data;
-  };
-
-  return data;
-}
-
-function _templateObject() {
-  var data = _taggedTemplateLiteralLoose(["\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n"]);
-
-  _templateObject = function _templateObject() {
-    return data;
-  };
-
-  return data;
-}
-
-function _taggedTemplateLiteralLoose(strings, raw) { if (!raw) { raw = strings.slice(0); } strings.raw = raw; return strings; }
-
-var Box = _reactEmotion.default.div(_templateObject(), _styledSystem.space, _styledSystem.width, _styledSystem.fontSize, _styledSystem.color, _styledSystem.flex, _styledSystem.justifySelf, _styledSystem.alignSelf, _styledSystem.display, _styledSystem.maxWidth, _styledSystem.minWidth, _styledSystem.height, _styledSystem.maxHeight, _styledSystem.minHeight, _styledSystem.size, _styledSystem.ratio, _styledSystem.position, _styledSystem.borders, _styledSystem.borderColor, _styledSystem.borderRadius);
-
+var Box =
+/*#__PURE__*/
+(0, _reactEmotion.default)("div", {
+  target: "eulnskz0"
+})(_styledSystem.space, "\n  ", _styledSystem.width, "\n  ", _styledSystem.fontSize, "\n  ", _styledSystem.color, "\n  ", _styledSystem.flex, "\n  ", _styledSystem.justifySelf, "\n  ", _styledSystem.alignSelf, "\n  ", _styledSystem.display, "\n  ", _styledSystem.maxWidth, "\n  ", _styledSystem.minWidth, "\n  ", _styledSystem.height, "\n  ", _styledSystem.maxHeight, "\n  ", _styledSystem.minHeight, "\n  ", _styledSystem.size, "\n  ", _styledSystem.ratio, "\n  ", _styledSystem.position, "\n  ", _styledSystem.borders, "\n  ", _styledSystem.borderColor, "\n  ", _styledSystem.borderRadius);
 exports.Box = Box;
-
-var Flex = _reactEmotion.default.div(_templateObject2(), _styledSystem.space, _styledSystem.width, _styledSystem.fontSize, _styledSystem.color, _styledSystem.alignItems, _styledSystem.alignContent, _styledSystem.justifyContent, _styledSystem.flexWrap, _styledSystem.flexBasis, _styledSystem.flexDirection, _styledSystem.flex, _styledSystem.justifySelf, _styledSystem.alignSelf, _styledSystem.display, _styledSystem.maxWidth, _styledSystem.minWidth, _styledSystem.height, _styledSystem.maxHeight, _styledSystem.minHeight, _styledSystem.size, _styledSystem.ratio, _styledSystem.position, _styledSystem.borders, _styledSystem.borderColor, _styledSystem.borderRadius);
-
+var Flex =
+/*#__PURE__*/
+(0, _reactEmotion.default)("div", {
+  target: "eulnskz1"
+})(_styledSystem.space, "\n  ", _styledSystem.width, "\n  ", _styledSystem.fontSize, "\n  ", _styledSystem.color, "\n  ", _styledSystem.alignItems, "\n  ", _styledSystem.alignContent, "\n  ", _styledSystem.justifyContent, "\n  ", _styledSystem.flexWrap, "\n  ", _styledSystem.flexBasis, "\n  ", _styledSystem.flexDirection, "\n  ", _styledSystem.flex, "\n  ", _styledSystem.justifySelf, "\n  ", _styledSystem.alignSelf, "\n  ", _styledSystem.display, "\n  ", _styledSystem.maxWidth, "\n  ", _styledSystem.minWidth, "\n  ", _styledSystem.height, "\n  ", _styledSystem.maxHeight, "\n  ", _styledSystem.minHeight, "\n  ", _styledSystem.size, "\n  ", _styledSystem.ratio, "\n  ", _styledSystem.position, "\n  ", _styledSystem.borders, "\n  ", _styledSystem.borderColor, "\n  ", _styledSystem.borderRadius);
 exports.Flex = Flex;
 Flex.defaultProps = {
   display: "flex"
 };
-
-var Input = _reactEmotion.default.input(_templateObject3(), _styledSystem.space, _styledSystem.width, _styledSystem.fontSize, _styledSystem.color, _styledSystem.flex, _styledSystem.justifySelf, _styledSystem.alignSelf, _styledSystem.display, _styledSystem.maxWidth, _styledSystem.minWidth, _styledSystem.height, _styledSystem.maxHeight, _styledSystem.minHeight, _styledSystem.size, _styledSystem.ratio, _styledSystem.position, _styledSystem.borders, _styledSystem.borderColor, _styledSystem.borderRadius);
-
+var Input =
+/*#__PURE__*/
+(0, _reactEmotion.default)("input", {
+  target: "eulnskz2"
+})("appearance:none;", _styledSystem.space, "\n  ", _styledSystem.width, "\n  ", _styledSystem.fontSize, "\n  ", _styledSystem.color, "\n  ", _styledSystem.flex, "\n  ", _styledSystem.justifySelf, "\n  ", _styledSystem.alignSelf, "\n  ", _styledSystem.display, "\n  ", _styledSystem.maxWidth, "\n  ", _styledSystem.minWidth, "\n  ", _styledSystem.height, "\n  ", _styledSystem.maxHeight, "\n  ", _styledSystem.minHeight, "\n  ", _styledSystem.size, "\n  ", _styledSystem.ratio, "\n  ", _styledSystem.position, "\n  ", _styledSystem.borders, "\n  ", _styledSystem.borderColor, "\n  ", _styledSystem.borderRadius);
 exports.Input = Input;
-
-var Button = _reactEmotion.default.button(_templateObject4(), _styledSystem.space, _styledSystem.width, _styledSystem.fontSize, _styledSystem.color, _styledSystem.flex, _styledSystem.justifySelf, _styledSystem.alignSelf, _styledSystem.display, _styledSystem.maxWidth, _styledSystem.minWidth, _styledSystem.height, _styledSystem.maxHeight, _styledSystem.minHeight, _styledSystem.size, _styledSystem.ratio, _styledSystem.fontFamily, _styledSystem.textAlign, _styledSystem.lineHeight, _styledSystem.fontWeight, _styledSystem.letterSpacing, _styledSystem.position, _styledSystem.borders, _styledSystem.borderColor, _styledSystem.borderRadius);
-
+Input.defaultProps = {
+  border: 0,
+  p: 0,
+  m: 0,
+  minWidth: 0,
+  fontSize: '1rem',
+  fontFamily: 'inherit'
+};
+var Button =
+/*#__PURE__*/
+(0, _reactEmotion.default)("button", {
+  target: "eulnskz3"
+})("appearance:none;", _styledSystem.space, "\n  ", _styledSystem.width, "\n  ", _styledSystem.fontSize, "\n  ", _styledSystem.color, "\n  ", _styledSystem.flex, "\n  ", _styledSystem.justifySelf, "\n  ", _styledSystem.alignSelf, "\n  ", _styledSystem.display, "\n  ", _styledSystem.maxWidth, "\n  ", _styledSystem.minWidth, "\n  ", _styledSystem.height, "\n  ", _styledSystem.maxHeight, "\n  ", _styledSystem.minHeight, "\n  ", _styledSystem.size, "\n  ", _styledSystem.ratio, "\n  ", _styledSystem.fontFamily, "\n  ", _styledSystem.textAlign, "\n  ", _styledSystem.lineHeight, "\n  ", _styledSystem.fontWeight, "\n  ", _styledSystem.letterSpacing, "\n  ", _styledSystem.position, "\n  ", _styledSystem.borders, "\n  ", _styledSystem.borderColor, "\n  ", _styledSystem.borderRadius);
 exports.Button = Button;
 Button.defaultProps = {
+  display: 'inline-block',
+  bg: 'transparent',
   height: 40,
   px: 3,
-  fontWeight: "bold"
+  fontSize: 1,
+  fontWeight: "bold",
+  border: 0
 };
-
-var Text = _reactEmotion.default.p(_templateObject5(), _styledSystem.space, _styledSystem.width, _styledSystem.fontSize, _styledSystem.color, _styledSystem.flex, _styledSystem.justifySelf, _styledSystem.alignSelf, _styledSystem.display, _styledSystem.maxWidth, _styledSystem.minWidth, _styledSystem.height, _styledSystem.maxHeight, _styledSystem.minHeight, _styledSystem.size, _styledSystem.ratio, _styledSystem.fontFamily, _styledSystem.textAlign, _styledSystem.lineHeight, _styledSystem.fontWeight, _styledSystem.letterSpacing, _styledSystem.position, _styledSystem.borders, _styledSystem.borderColor, _styledSystem.borderRadius, (0, _styledSystem.responsiveStyle)({
+var Text =
+/*#__PURE__*/
+(0, _reactEmotion.default)("p", {
+  target: "eulnskz4"
+})(_styledSystem.space, "\n  ", _styledSystem.width, "\n  ", _styledSystem.fontSize, "\n  ", _styledSystem.color, "\n  ", _styledSystem.flex, "\n  ", _styledSystem.justifySelf, "\n  ", _styledSystem.alignSelf, "\n  ", _styledSystem.display, "\n  ", _styledSystem.maxWidth, "\n  ", _styledSystem.minWidth, "\n  ", _styledSystem.height, "\n  ", _styledSystem.maxHeight, "\n  ", _styledSystem.minHeight, "\n  ", _styledSystem.size, "\n  ", _styledSystem.ratio, "\n  ", _styledSystem.fontFamily, "\n  ", _styledSystem.textAlign, "\n  ", _styledSystem.lineHeight, "\n  ", _styledSystem.fontWeight, "\n  ", _styledSystem.letterSpacing, "\n  ", _styledSystem.position, "\n  ", _styledSystem.borders, "\n  ", _styledSystem.borderColor, "\n  ", _styledSystem.borderRadius, "\n  ", (0, _styledSystem.responsiveStyle)({
   prop: "fontStyle",
   cssProperty: "fontStyle"
 }));
-
 exports.Text = Text;
+Text.defaultProps = {
+  m: 0,
+  p: 0,
+  fontWeight: 400,
+  fontSize: 1,
+  lineHeight: '1.5em'
+};
 
 var Heading = function Heading(_ref) {
   var _ref$is = _ref.is,
       is = _ref$is === void 0 ? "h1" : _ref$is,
       props = _objectWithoutProperties(_ref, ["is"]);
 
-  return _react.default.createElement(Text.withComponent(is), props);
+  return _react.default.createElement(Text.withComponent(is, {
+    target: "eulnskz5"
+  }), props);
 };
 
 exports.Heading = Heading;
+Heading.defaultProps = {
+  m: 0,
+  p: 0,
+  fontWeight: 400,
+  fontSize: 2,
+  lineHeight: '1.5em'
+};

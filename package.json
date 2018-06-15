@@ -19,11 +19,15 @@
   },
   "scripts": {
     "format-packages": "prettier-eslint --write \"packages/*/src/**/*.js\"",
+    "format-www": "prettier-eslint --write \"www/*.js\" \"www/src/**/*.js\"",
     "lint": "eslint --ext .js,.jsx packages/**/src",
     "prebootstrap": "yarn",
     "watch": "lerna run watch --no-sort --stream --concurrency 999"
   },
   "workspaces": [
     "packages/*"
+  ],
+  "eslintIgnore": [
+    "docs/code/*"
   ]
 }

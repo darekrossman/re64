@@ -1,5 +1,5 @@
-import React from "react"
-import styled from "react-emotion"
+import React from 'react'
+import styled from 'react-emotion'
 import {
   display,
   maxWidth,
@@ -31,8 +31,8 @@ import {
   borders,
   borderColor,
   borderRadius,
-  responsiveStyle,
-} from "styled-system"
+  responsiveStyle
+} from 'styled-system'
 
 export const Box = styled.div`
   ${space}
@@ -84,10 +84,11 @@ export const Flex = styled.div`
   ${borderRadius}
 `
 Flex.defaultProps = {
-  display: `flex`,
+  display: `flex`
 }
 
 export const Input = styled.input`
+  appearance: none;
   ${space}
   ${width}
   ${fontSize}
@@ -108,8 +109,17 @@ export const Input = styled.input`
   ${borderColor}
   ${borderRadius}
 `
+Input.defaultProps = {
+  border: 0,
+  p: 0,
+  m: 0,
+  minWidth: 0,
+  fontSize: '1rem',
+  fontFamily: 'inherit'
+}
 
 export const Button = styled.button`
+  appearance: none;
   ${space}
   ${width}
   ${fontSize}
@@ -136,9 +146,13 @@ export const Button = styled.button`
   ${borderRadius}
 `
 Button.defaultProps = {
+  display: 'inline-block',
+  bg: 'transparent',
   height: 40,
   px: 3,
+  fontSize: 1,
   fontWeight: `bold`,
+  border: 0
 }
 
 export const Text = styled.p`
@@ -168,9 +182,23 @@ export const Text = styled.p`
   ${borderRadius}
   ${responsiveStyle({
     prop: `fontStyle`,
-    cssProperty: `fontStyle`,
+    cssProperty: `fontStyle`
   })}
 `
+Text.defaultProps = {
+  m: 0,
+  p: 0,
+  fontWeight: 400,
+  fontSize: 1,
+  lineHeight: '1.5em'
+}
 
 export const Heading = ({ is = `h1`, ...props }) =>
   React.createElement(Text.withComponent(is), props)
+Heading.defaultProps = {
+  m: 0,
+  p: 0,
+  fontWeight: 400,
+  fontSize: 2,
+  lineHeight: '1.5em'
+}
